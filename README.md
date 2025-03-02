@@ -1,1 +1,1 @@
-# Applied Data Analysis and Visualization Course
+Applied Data Analysis and Visualization Course
