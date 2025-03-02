@@ -1,0 +1,38 @@
+
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 5px;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+th {
+  color: #444;
+}
+
+/* Mobile view adjustments for tables */
+@media screen and (max-width: 960px) {
+  table {
+    border-collapse: separate;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+}

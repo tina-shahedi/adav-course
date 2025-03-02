@@ -1,0 +1,14 @@
+# main links links
+main:
+
+  - title: "Lectures"
+    url: /Lectures/
+
+  - title: "Labs"
+    url: /Labs/
+
+  - title: "Assignments"
+    url: /Assignments/
+
+  - title: "Exam"
+    url: /Exam/

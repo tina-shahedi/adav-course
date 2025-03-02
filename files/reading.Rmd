@@ -1,0 +1,79 @@
+---
+title: "Readings"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+    number_sections: false
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### **Required Books**
+
+The following books will be used during the course. For all books, a free (open source) online version is available.
+
+#### **Introduction to Statistical Learning**
+
+The first book we are using in this course is [*Introduction to Statistical Learning (ISLR)*](https://www.statlearning.com/), abbreviated as ISLR. The link will direct you to the website of the book, where a pdf of the (first edition of the) book is available online for free and can be downloaded. Under ‘resources’, you can also find a link to a free online course on the book which includes a very nice series of (short) lectures! We will begin with Chapter 1, where we will explore the foundational principles of statistical learning. From there, we will progress through Chapters 2 to 8, covering a range of important topics:
+
+- [Chapter 1: Introduction](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf)
+- [Chapter 2.1: What is Statistical Learning](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf)  
+- [Chapter 2.2: Assessing Model Accuracy](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf) 
+- Optional: [Chapter 3.1 through 3.4: Linear Regression](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf) 
+- [Chapter 4: Classification](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf) 
+- [Chapter 5.1: Resampling Methods:Cross-Validation](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf)  
+- [Chapter 6.1 through 6.2](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf) 
+- [Chapter 8: Tree Based Models](https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf)
+
+
+#### **Data Visualization**
+
+The second book we are using in this course is [*Data Visualization - A Practical Introduction (DatVis)*](https://socviz.co/) by Kieran Healy, which we will abbreviate as DatVis. The link will direct you to a preprint version of the book, which is available online for free. We will start with chapter 1, learning all about the basic principles of data visualization and perception. From there, we will progress through chapters 3, 4, 5.3, and 5.4, covering a range of important topics:
+
+- [Chapter 1: Look at Data](https://socviz.co/lookatdata.html#lookatdata)
+- Optional: [Chapter 3: Make a Plot](https://socviz.co/makeplot.html#makeplot) 
+- [Chapter 4: Show the Right Numbers](https://socviz.co/groupfacettx.html#groupfacettx)
+- [Chapter 5.3: Plot Text Directly](https://socviz.co/workgeoms.html#plot-text-directly)
+- [Chapter 5.4: Label Outliers](https://socviz.co/workgeoms.html#label-outliers)
+
+
+#### **Mastering Shiny**
+
+In week 6, we will explore making interactive visualizations using R Shiny apps. For this, we will use the book [*Mastering Shiny*](https://mastering-shiny.org/) by Hadley Wickham. The link provides free access to the book online. We will cover the following material:
+
+- [Chapters 1 - 3 :Introduction to Shiny Application](https://mastering-shiny.org/)
+- [Chapter 4 - Case Study: ER Injuries](https://mastering-shiny.org/basic-case-study.html)
+- Optional: [Parts 1 - 3 (This is a video introduction to RShiny)](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html)
+
+#### **Text Mining with R**
+
+In week 8, we will have a look at some basic text mining, for which we will use the book [*Text Mining with R- A Tidy Approach*](https://www.tidytextmining.com/) by Julia Silge and David Robinson. Nice to know: this entire book and its website were made using R Markdown! We will do text mining in week 8, and cover chapter 1 to 3.
+
+- [Chapter 1: The tidy text format](https://www.tidytextmining.com/tidytext)
+- [Chapter 2: Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment)
+- [Chapter 3: Analyzing word and document frequency: tf-idf](https://www.tidytextmining.com/tfidf)
+
+#### **Network Science**
+
+For the lecture on network science in week 9, we will use the following material:
+
+- [First Course in Network Science. (chapter 0)](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/blob/master/sample/chapters/chapter0.pdf) by Filippo Menczer, Santo Fortunato, and Clayton A. Davis.
+- [Network Science-Subchapters 2.2, 2.3, 2.4, 2.8, 9.1 and 9.2](https://networksciencebook.com/) by Albert-Laszlo Barabasi.
+- [Centrality](https://dgarcia-eu.github.io/SocialDataScience/Handouts/4_SNA/044_Centrality/Centrality.html) by David Garcia, 2021.  
+
+
+### **Optional Literature**
+
+#### **R for Data Science**
+
+Another useful resource for this course is the book [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund, also abbreviated as R4DS. This entire book and its website were made using R Markdown! Hadley Wickham and R4DS use a specific dialect of R, a set of packages called the tidyverse. Because these packages are very useful and great for data science, we will be using the tidyverse throughout this course.
+
+#### **Practical Data Science with R**
+
+For more guidance on using R, we recommend the book [*Practical Data Science with R*](http://www.ievbras.ru/ecostat/Kiril/R/Biblio_N/R_Eng/Mount2014.pdf) by N. Zumel, J. Mount, and J. Porzak (2014). Manning Publications. No online version is available for this book.
